@@ -8,7 +8,7 @@ def get_image_base64(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Encode the icon
-icon_base64 = get_image_base64("unit_icon.png")
+icon_base64 = get_image_base64("assets/unit_icon.png")
 
 # Use the icon in Streamlit title
 st.markdown(f"""
